@@ -7,8 +7,9 @@ class WrenConsole < Formula
 
   bottle do
     root_url "https://github.com/exercism/homebrew-wren/releases/download/wren-console-0.3.0"
-    sha256 cellar: :any_skip_relocation, catalina:     "39228c2509493acdef1e5c3b73cf899dd784d9d45a5c9580be1f9fcc7aefb9d0"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "42af62ddfde7ea52a259008f057e2e865a34f7de6b4b15e1973db14d572d4287"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, catalina:     "1a7da001094e6ba2fb9ddc087664c08ca1fb80a51b4b1cab1bd97ca717e631cc"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "8dbbb2708af9b704b3fba4fca306554863bdc6eab940e84d4daa1be2e9131eee"
   end
 
   resource "wren-essentials" do
