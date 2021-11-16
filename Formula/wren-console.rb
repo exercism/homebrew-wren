@@ -1,8 +1,8 @@
 class WrenConsole < Formula
   desc "Improved REPL and CLI tool for running Wren scripts"
   homepage "https://github.com/joshgoebel/wren-console"
-  url "https://github.com/joshgoebel/wren-console/archive/v0.2.91.tar.gz"
-  sha256 "55e4849b30a28cfc737e99c52e34285b832ae720940bca59b6338e48b73a9977"
+  url "https://github.com/joshgoebel/wren-console/archive/v0.3.0.tar.gz"
+  sha256 "38f4a776135f3092107b7984297335a4c764f591bec906fcf14eec8eacf9c424"
   license "MIT"
 
   bottle do
@@ -12,8 +12,8 @@ class WrenConsole < Formula
   end
 
   resource "wren-essentials" do
-    url "https://github.com/joshgoebel/wren-essentials/archive/v0.1.0.tar.gz"
-    sha256 "2192f3c4b8c039895582d87577a473a4eb5f84db827d914d611bb69ec334068a"
+    url "https://github.com/joshgoebel/wren-essentials/archive/v0.2.0.tar.gz"
+    sha256 "a1125c54e9a04186cb22cb9d53a1c479779670e024d78305578dc638b828efe7"
   end
 
   def install
