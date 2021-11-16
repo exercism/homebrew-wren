@@ -17,9 +17,9 @@ class WrenConsole < Formula
   end
 
   def install
-    # trivial change
     project_dir = "projects/make.mac"
-    on_linux { project_dir = "projects/make" }
+    project_dir = "projects/make" if OS.linux?
+
     resource("wren-essentials").stage buildpath/"deps/wren-essentials"
     system "make", "-C", project_dir
     bin.install "bin/wrenc"
