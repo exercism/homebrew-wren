@@ -16,6 +16,9 @@ class WrenConsole < Formula
     sha256 "a1125c54e9a04186cb22cb9d53a1c479779670e024d78305578dc638b828efe7"
   end
 
+  # TODO: remove this comment
+  # need a change to build bottles
+
   def install
     project_dir = "projects/make.mac"
     project_dir = "projects/make" if OS.linux?
