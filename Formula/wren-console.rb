@@ -6,9 +6,9 @@ class WrenConsole < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/exercism/homebrew-wren/releases/download/wren-console-0.2.91"
-    sha256 cellar: :any_skip_relocation, catalina:     "4c91e4291bdf7efa591d604b34eb0b879f85ec7f7343b86aa16ab8ff8da613c5"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "a9eb5a97df9bee2b138069b88d149e36b59382a1653b4419b0ea46c337506f7f"
+    root_url "https://github.com/exercism/homebrew-wren/releases/download/wren-console-0.3.0"
+    sha256 cellar: :any_skip_relocation, catalina:     "39228c2509493acdef1e5c3b73cf899dd784d9d45a5c9580be1f9fcc7aefb9d0"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "42af62ddfde7ea52a259008f057e2e865a34f7de6b4b15e1973db14d572d4287"
   end
 
   resource "wren-essentials" do
